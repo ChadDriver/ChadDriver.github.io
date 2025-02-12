@@ -7,18 +7,17 @@ function App() {
     <div className="app-container">
       {/* Video Background */}
       <video autoPlay muted loop className="video-background">
-        <source src="/videos/background.mp4" type="video/mp4" />
-        Your browser does not support HTML5 video.
-      </video>
+  <source src={`${import.meta.env.BASE_URL}videos/background.mp4`} type="video/mp4" />
+</video>
 
       {/* Content Overlay */}
       <div className="content-overlay">
         {/* Logo */}
-        <img 
-          src="/logo.png" 
-          alt="Chad Driver Logo" 
-          className="logo animate-pulse" 
-        />
+        <img
+  src={`${import.meta.env.BASE_URL}logo.png`}
+  alt="Chad Driver Logo"
+  className="logo animate-pulse"
+/>
 
         {/* Title */}
         <h1 className="title">$DRIVE - Chad Driver</h1>

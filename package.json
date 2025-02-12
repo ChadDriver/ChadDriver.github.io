@@ -1,9 +1,9 @@
 {
-  "homepage": "https://chaddriver.github.io/Drive/",
+  "homepage": "https://chaddriver.github.io/Drive",
   "name": "Drive",
   "version": "1.0.0",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "$DRIVE Token on the Solana Blockchain",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "Drive": "file:",
-    "Driver": "file:",
-    "react-javascript": "file:"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

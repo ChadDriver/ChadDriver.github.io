@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 export default defineConfig({
-  base: '/Drive/',
+  base: 'ChadDriver/Drive/',
   build: {
     outDir: 'dist',
   },

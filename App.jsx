@@ -32,7 +32,7 @@ function App() {
         {/* Action Buttons */}
         <div className="button-container">
           <a
-            href="https://twitter.com/YourTwitterHandle"
+            href="https://x.com/drivechad"
             target="_blank"
             rel="noopener noreferrer"
             className="action-button twitter-button"
@@ -41,7 +41,7 @@ function App() {
           </a>
 
           <a
-            href="https://dexscreener.com/solana/your-pair-address"
+            href="https://dexscreener.com/solana/ekzieoujt2wzqrkfvbgya6zefvyv8qiewwzsqxmn1phv"
             target="_blank"
             rel="noopener noreferrer"
             className="action-button dexscreener-button"
@@ -50,7 +50,7 @@ function App() {
           </a>
 
           <a
-            href="https://t.me/YourTelegramLink"
+            href="https://t.me/drivesolana"
             target="_blank"
             rel="noopener noreferrer"
             className="action-button telegram-button"
